@@ -26,8 +26,8 @@
 //#define PS3                 // PS3 (ScpToolkit) compatibility (Comment out for joystick=X/Y-Axis and B11/B12 as normal buttons)
 //#define NEOGEO
 
-#define DEBOUNCE 0          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated
-#define DEBOUNCE_TIME 10    // Debounce time in milliseconds
+#define DEBOUNCE 1          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated. Soy Regi, lo activo en 1.
+#define DEBOUNCE_TIME 20    // Debounce time in milliseconds. Soy Regi, lo subo de 10 a 20ms.
 //#define DEBUG             // Enables debugging (sends debug data to usb serial)
 
 #ifdef NEOGEO
