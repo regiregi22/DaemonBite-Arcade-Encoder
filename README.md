@@ -36,6 +36,9 @@ micro.build.usb_product="DaemonBite 2"
 micro.build.pid=0x8040  
 micro.build.usb_product="DaemonBite 3"  
 
+micro.build.pid=0x8041  
+micro.build.usb_product="DaemonBite 3DO"  
+
 
 
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
