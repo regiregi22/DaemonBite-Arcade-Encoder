@@ -39,11 +39,11 @@ micro.build.usb_product="DaemonBite 3"
 
 (Esta info anterior está obsoleta, esta hecha sin usar el pack de "Sparkfun" de placas. En el caso actual, es lo mismo pero esta ruta: C:\Users\regir\AppData\Local\Arduino15\packages\SparkFun\hardware\avr\1.1.13  
 
-promicro.build.usb_product="SparkFun Pro Micro"
-promicro.build.vid=0x1b4f
+promicro.build.usb_product="SparkFun Pro Micro"  
+promicro.build.vid=0x1b4f  
 
-promicro.build.usb_product="DaemonBite 3DO"
-promicro.build.vid=0x1b5f
+promicro.build.usb_product="DaemonBite 3DO"  
+promicro.build.vid=0x1b5f  
 
 
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
