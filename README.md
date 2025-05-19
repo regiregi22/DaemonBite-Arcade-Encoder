@@ -10,6 +10,7 @@ https://x.com/MisterAddons/status/1299887953410392064
 
 
 ## -GRABAR EN ARDUINO IDE (Grabar un "Arduino Pro Micro"):  
+-Lo primero, soldar el jumper J1 para tener el voltaje suficiente (5v para 16Mhz).  
 SparkFun distributed their own "SparkFun AVR Boards" platform with a "Pro Micro" board definition. Alternatively, you can select Tools > Board > Arduino AVR Boards > Arduino Micro. That is intended for use with the Micro board, but will also work with the Pro Micro in a pinch.  
 This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all#installing-windows  
 
