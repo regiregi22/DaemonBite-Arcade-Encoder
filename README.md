@@ -9,9 +9,14 @@ Ver aqui para mas info:
 https://x.com/MisterAddons/status/1299887953410392064 
 
 
-## -GRABAR PLACA EN ARDUINO IDE (Grabar un "Arduino Pro Micro"): 
+## -GRABAR EN ARDUINO IDE (Grabar un "Arduino Pro Micro"): 
+SparkFun distributed their own "SparkFun AVR Boards" platform with a "Pro Micro" board definition. Alternatively, you can select Tools > Board > Arduino AVR Boards > Arduino Micro. That is intended for use with the Micro board, but will also work with the Pro Micro in a pinch.  
+This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all#installing-windows
 
-SparkFun distributed their own "SparkFun AVR Boards" platform with a "Pro Micro" board definition. Alternatively, you can select Tools > Board > Arduino AVR Boards > Arduino Micro. That is intended for use with the Micro board, but will also work with the Pro Micro in a pinch. This is the procedure: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all 
+=After installing that, Arduino IDE Settings:
+-COM Port
+-SparkFun AVR Board/Sparkfun Pro Micro
+-Processor: 5V/16Mhz
 
 
 
@@ -30,8 +35,6 @@ micro.build.usb_product="DaemonBite 2"
 
 micro.build.pid=0x8040
 micro.build.usb_product="DaemonBite 3"
-
-
 
 
 
