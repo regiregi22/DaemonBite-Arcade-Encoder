@@ -13,10 +13,10 @@ https://x.com/MisterAddons/status/1299887953410392064
 SparkFun distributed their own "SparkFun AVR Boards" platform with a "Pro Micro" board definition. Alternatively, you can select Tools > Board > Arduino AVR Boards > Arduino Micro. That is intended for use with the Micro board, but will also work with the Pro Micro in a pinch.  
 This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all#installing-windows
 
-=After installing that, Arduino IDE Settings:
--COM Port
--SparkFun AVR Board/Sparkfun Pro Micro
--Processor: 5V/16Mhz
+=After installing that, Arduino IDE Settings:  
+-COM Port  
+-SparkFun AVR Board/Sparkfun Pro Micro  
+-Processor: 5V/16Mhz  
 
 
 
