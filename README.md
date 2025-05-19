@@ -21,7 +21,9 @@ This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--f
 
 
 ## -BOARD USB NAME: 
--Para cada placa de Arduino Micro, le he puesto un nombre diferente, el cual se modifica en el fichero "C:\Users\Regi-Portatil\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\boards.txt". Hay que buscar la linea "micro.name=Arduino Micro" y ahi cambiar los parametros micro.build.usb_product= y micro.build.pid= para cada placa diferente:  
+-Para cada placa de Arduino Micro, le he puesto un nombre diferente, el cual se modifica en el fichero "C:\Users\Regi-Portatil\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\boards.txt". Hay que buscar la linea "micro.name=Arduino Micro" y ahi cambiar los parametros micro.build.usb_product= y micro.build.pid= para cada placa diferente.
+
+(Esta info anterior está obsoleta, esta hecha sin usar el pack de "Sparkfun" de placas. En el caso actual, es lo mismo pero esta ruta: C:\Users\regir\AppData\Local\Arduino15\packages\SparkFun\hardware\avr\1.1.13  
 
 (default)  
 micro.build.pid=0x8037  
@@ -38,6 +40,8 @@ micro.build.usb_product="DaemonBite 3"
 
 micro.build.pid=0x8041  
 micro.build.usb_product="DaemonBite 3DO"  
+
+
 
 
 
