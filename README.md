@@ -1,17 +1,17 @@
 # NOTAS REGI:
 
 ## -DEBOUNCE:
-He modificado el archivo "DaemonBiteArcadeEncoder/DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y subirle el tiempo de 10ms a 20ms (haciendo pruebas de velocidad de pulsacion en ningun caso he logrado bajar de 30ms, siendo la media minima unos 60ms (120ms el ciclo entero). Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma. 
-#define DEBOUNCE 1          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated. Soy Regi, lo activo en 1. 
-#define DEBOUNCE_TIME 20    // Debounce time in milliseconds. Soy Regi, lo subo de 10 a 20ms. 
+He modificado el archivo "DaemonBiteArcadeEncoder/DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y subirle el tiempo de 10ms a 20ms (haciendo pruebas de velocidad de pulsacion en ningun caso he logrado bajar de 30ms, siendo la media minima unos 60ms (120ms el ciclo entero). Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma.  
+#define DEBOUNCE 1          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated. Soy Regi, lo activo en 1.  
+#define DEBOUNCE_TIME 20    // Debounce time in milliseconds. Soy Regi, lo subo de 10 a 20ms.  
 
-Ver aqui para mas info: 
-https://x.com/MisterAddons/status/1299887953410392064 
+Ver aqui para mas info:  
+https://x.com/MisterAddons/status/1299887953410392064  
 
 
-## -GRABAR EN ARDUINO IDE (Grabar un "Arduino Pro Micro"): 
+## -GRABAR EN ARDUINO IDE (Grabar un "Arduino Pro Micro"):  
 SparkFun distributed their own "SparkFun AVR Boards" platform with a "Pro Micro" board definition. Alternatively, you can select Tools > Board > Arduino AVR Boards > Arduino Micro. That is intended for use with the Micro board, but will also work with the Pro Micro in a pinch.  
-This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all#installing-windows
+This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all#installing-windows  
 
 =After installing that, Arduino IDE Settings:  
 -COM Port  
@@ -21,20 +21,20 @@ This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--f
 
 
 ## -BOARD USB NAME: 
--Para cada placa de Arduino Micro, le he puesto un nombre diferente, el cual se modifica en el fichero "C:\Users\Regi-Portatil\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\boards.txt". Hay que buscar la linea "micro.name=Arduino Micro" y ahi cambiar los parametros micro.build.usb_product= y micro.build.pid= para cada placa diferente: 
+-Para cada placa de Arduino Micro, le he puesto un nombre diferente, el cual se modifica en el fichero "C:\Users\Regi-Portatil\AppData\Local\Arduino15\packages\arduino\hardware\avr\1.8.6\boards.txt". Hay que buscar la linea "micro.name=Arduino Micro" y ahi cambiar los parametros micro.build.usb_product= y micro.build.pid= para cada placa diferente:  
 
-(default)
-micro.build.pid=0x8037
-micro.build.usb_product="Arduino Micro"
+(default)  
+micro.build.pid=0x8037  
+micro.build.usb_product="Arduino Micro"  
 
-micro.build.pid=0x8038
-micro.build.usb_product="DaemonBite 1"
+micro.build.pid=0x8038  
+micro.build.usb_product="DaemonBite 1"  
 
-micro.build.pid=0x8039
-micro.build.usb_product="DaemonBite 2"
+micro.build.pid=0x8039  
+micro.build.usb_product="DaemonBite 2"  
 
-micro.build.pid=0x8040
-micro.build.usb_product="DaemonBite 3"
+micro.build.pid=0x8040  
+micro.build.usb_product="DaemonBite 3"  
 
 
 
