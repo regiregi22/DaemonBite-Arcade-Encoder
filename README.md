@@ -46,6 +46,9 @@ promicro.build.vid=0x1b4f
 promicro.build.usb_product="DaemonBite 3DO"  
 promicro.build.vid=0x1b5f  
 
+promicro.build.usb_product="DaemonBite PSX"  
+promicro.build.vid=0x1b6f  
+
 
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
 # DaemonBite-Arcade-Encoder
