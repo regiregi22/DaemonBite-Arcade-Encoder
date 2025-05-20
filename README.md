@@ -55,6 +55,9 @@ promicro.build.vid=0x1b7f
 promicro.build.usb_product="DaemonBite SNES"  
 promicro.build.vid=0x1b8f  
 
+promicro.build.usb_product="DaemonBite PCE"  
+promicro.build.vid=0x1b9f  
+
 
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
 # DaemonBite-Arcade-Encoder
