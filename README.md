@@ -52,6 +52,10 @@ promicro.build.vid=0x1b6f
 promicro.build.usb_product="DaemonBite NES"  
 promicro.build.vid=0x1b7f  
 
+promicro.build.usb_product="DaemonBite SNES"  
+promicro.build.vid=0x1b8f  
+
+
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
 # DaemonBite-Arcade-Encoder
 This is an arcade controller project for the MiSTer FPGA project and any other device accepting USB HID joysticks using an Arduino Pro Micro. This project can also be used to create a NeoGeo/Atari/Commodore/Amiga controller to USB adapters.
