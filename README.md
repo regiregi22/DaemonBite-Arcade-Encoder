@@ -58,6 +58,9 @@ promicro.build.vid=0x1b8f
 promicro.build.usb_product="DaemonBite PCE"  
 promicro.build.vid=0x1b9f  
 
+promicro.build.usb_product="DaemonBite MS"  
+promicro.build.vid=0x1b0f  
+
 
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
 # DaemonBite-Arcade-Encoder
