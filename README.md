@@ -64,6 +64,9 @@ promicro.build.vid=0x1b0f
 promicro.build.usb_product="DaemonBite SATURN"  
 promicro.build.vid=0x1b1f  
 
+promicro.build.usb_product="DaemonBite MD"  
+promicro.build.vid=0x1b2f  
+
 
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
 # DaemonBite-Arcade-Encoder
