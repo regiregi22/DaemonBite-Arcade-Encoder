@@ -1,13 +1,15 @@
 # NOTAS REGI:
 
 ## -DEBOUNCE:
-He modificado el archivo "DaemonBiteArcadeEncoder/DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y subirle el tiempo de 10ms a 20ms (haciendo pruebas de velocidad de pulsacion en ningun caso he logrado bajar de 30ms, siendo la media minima unos 60ms (120ms el ciclo entero). Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma. 
+He modificado el archivo "DaemonBiteArcadeEncoder/DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y mantener el tiempo de debounce a 10ms. Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma. 
 
 #define DEBOUNCE 1          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated. Soy Regi, lo activo en 1.  
-#define DEBOUNCE_TIME 20    // Debounce time in milliseconds. Soy Regi, lo subo de 10 a 20ms.  
+#define DEBOUNCE_TIME 10    // Debounce time in milliseconds. Soy Regi, lo subo de 10 a 20ms.  
 
 Ver aqui para mas info:  
 https://x.com/MisterAddons/status/1299887953410392064  
+
+Nota de MickGyver: The way the debounce is implemented, the extra lag from the debounce logic is only around 30µs. 10ms should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.
 
 
 ## -GRABAR EN ARDUINO IDE (Grabar un "Arduino Pro Micro"):  
@@ -67,6 +69,15 @@ promicro.build.vid=0x1b1f
 
 promicro.build.usb_product="DaemonBite MD"  
 promicro.build.vid=0x1b2f  
+
+promicro.build.usb_product="DaemonBite Arcade 1"  
+promicro.build.vid=0x1b3f  
+
+promicro.build.usb_product="DaemonBite Arcade 2"  
+promicro.build.vid=0x1c0f  
+
+promicro.build.usb_product="DaemonBite Arcade 3"  
+promicro.build.vid=0x1c1f  
 
 
 ## A PARTIR DE AQUI, YA ES EL CODIGO ORIGINAL DEL DAEMONBITE:
