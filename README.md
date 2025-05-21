@@ -1,7 +1,8 @@
 # NOTAS REGI:
 
 ## -DEBOUNCE:
-He modificado el archivo "DaemonBiteArcadeEncoder/DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y subirle el tiempo de 10ms a 20ms (haciendo pruebas de velocidad de pulsacion en ningun caso he logrado bajar de 30ms, siendo la media minima unos 60ms (120ms el ciclo entero). Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma.  
+He modificado el archivo "DaemonBiteArcadeEncoder/DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y subirle el tiempo de 10ms a 20ms (haciendo pruebas de velocidad de pulsacion en ningun caso he logrado bajar de 30ms, siendo la media minima unos 60ms (120ms el ciclo entero). Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma. 
+
 #define DEBOUNCE 1          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated. Soy Regi, lo activo en 1.  
 #define DEBOUNCE_TIME 20    // Debounce time in milliseconds. Soy Regi, lo subo de 10 a 20ms.  
 
