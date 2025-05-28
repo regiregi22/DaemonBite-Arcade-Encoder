@@ -1,7 +1,7 @@
 # NOTAS REGI:
 
 ## -DEBOUNCE:
-He modificado el archivo "DaemonBiteArcadeEncoder/DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y mantener el tiempo de debounce a 10ms. Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma. 
+Para las placas Arcade con botones de switches mecanicos (que tienen rebotes), he modificado el archivo "DaemonBiteArcadeEncoder.ino" para ponerle el debouce de 0 a 1, y mantener el tiempo de debounce a 10ms. Con los botones IL no afectaba, con los Sanwa en principio tampoco, pero los Qanba tenian mucho bouncing y pulsaciones fantasma. Asi que lo he usado en todos mis sticks arcade.
 
 #define DEBOUNCE 1          // 1=Diddly-squat-Delay-Debouncing™ activated, 0=Debounce deactivated. Soy Regi, lo activo en 1.  
 #define DEBOUNCE_TIME 10    // Debounce time in milliseconds.
@@ -12,8 +12,8 @@ https://x.com/MisterAddons/status/1299887953410392064
 Nota de MickGyver: The way the debounce is implemented, the extra lag from the debounce logic is only around 30µs. 10ms should be an ideal value, lowering it might cause problems, and it shouldn't be any higher than 20ms.
 
 
-## -GRABAR EN ARDUINO IDE (Grabar un "Arduino Pro Micro"):  
--Lo primero, soldar el jumper J1 para tener el voltaje suficiente (5v para 16Mhz).  
+## -GRABAR EN ARDUINO IDE (Grabar un "Sparkfun Arduino Pro Micro"):  
+-Lo primero, soldar el jumper J1 para tener el voltaje suficiente para tener los 16Mhz (5v para 16Mhz).  
 SparkFun distributed their own "SparkFun AVR Boards" platform with a "Pro Micro" board definition. Alternatively, you can select Tools > Board > Arduino AVR Boards > Arduino Micro. That is intended for use with the Micro board, but will also work with the Pro Micro in a pinch.  
 This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/all#installing-windows  
 
