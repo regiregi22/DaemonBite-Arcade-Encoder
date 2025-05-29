@@ -65,6 +65,9 @@ promicro.build.vid=0x1c1f
 promicro.build.usb_product="DaemonRegi Slider"  
 promicro.build.vid=0x1c2f  
 
+promicro.build.usb_product="DaemonRipped Arcade"  
+promicro.build.vid=0x1c3f  
+
 
 ## A PARTIR DE AQUI, YA ES EL TEXTO ORIGINAL DEL DAEMONBITE ARCADE:
 # DaemonBite-Arcade-Encoder
