@@ -24,7 +24,7 @@ This is the correct procedure: https://learn.sparkfun.com/tutorials/pro-micro--f
 
 
 ## -BOARD USB NAME: 
--Para cada placa de SparkFun Arduino Pro Micro, le he puesto un nombre diferente, el cual se modifica en el fichero " C:\Users\regir\AppData\Local\Arduino15\packages\SparkFun\hardware\avr\1.1.13". Hay que buscar el producto "################################## Pro Micro ###################################" y ahi cambiar los parametros promicro.build.usb_product= y promicro.build.vid= para cada placa diferente.
+-Para cada placa de SparkFun Arduino Pro Micro, le he puesto un nombre diferente, el cual se modifica en el fichero "C:\Users\regir\AppData\Local\Arduino15\packages\SparkFun\hardware\avr\1.1.13\boards.txt". Hay que buscar el producto "################################## Pro Micro ###################################" y ahi cambiar los parametros promicro.build.usb_product= y promicro.build.vid= para cada placa diferente.
 
 promicro.build.usb_product="SparkFun Pro Micro"  
 promicro.build.vid=0x1b4f  
