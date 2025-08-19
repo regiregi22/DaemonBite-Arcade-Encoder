@@ -71,6 +71,9 @@ promicro.build.vid=0x1c3f
 promicro.build.usb_product="DaemonBite NEOGEO"  
 promicro.build.vid=0x1c4f  
 
+promicro.build.usb_product="DaemonBite FAMICOM"  
+promicro.build.vid=0x1c5f  
+
 
 ## A PARTIR DE AQUI, YA ES EL TEXTO ORIGINAL DEL DAEMONBITE ARCADE:
 # DaemonBite-Arcade-Encoder
